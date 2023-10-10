@@ -1,0 +1,13 @@
+@media (max-width: 680px) {
+
+    .Header{
+        width: 100%;
+    }
+    .img1 , .img2 , .img6 , .img7{
+        display: none;
+    }
+    .img3, .img5{
+        margin-top: 15px;
+
+    }
+}

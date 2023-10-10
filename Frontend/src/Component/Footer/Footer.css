@@ -1,0 +1,131 @@
+
+@media (min-width: 680px) {
+    .footerListItem li{
+        margin-left: 5px;
+        margin-right: 5px;
+        cursor: pointer;
+        padding: 0;
+        line-height: 1;
+        font-size: 12px;
+        display: flex;
+        transition: border-color 0.3s, color 0.3s; 
+        padding-bottom: 4px;
+
+        
+        
+    
+    }
+    .hrLine{
+        padding-bottom: 10px;
+        margin-top: 120px;
+    }
+  
+
+    .footerContainer{
+        
+        width: 100%;
+        
+    }
+    .footerContent{
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 50px;
+        margin-right: 50px;
+        
+    }
+    
+    .footerListItem li:hover{
+       border-bottom-width: 5px;
+       padding-bottom: 5px;
+       border-bottom-color: brown;
+       display: block;
+       color: brown;
+       padding-bottom: 0;
+      
+    }
+   
+   
+    .logoText{
+        text-align: center;
+    }
+    .copyRightText{
+        
+        display: flex;
+        
+        justify-content: center;
+        padding-bottom: 10px;
+        padding-top:10px;
+        
+    }
+ 
+}
+    
+
+
+@media (max-width: 680px) {
+    li{
+        margin-left: 5px;
+        margin-right: 5px;
+        cursor: pointer;
+        padding: 0;
+        line-height: 1;
+        font-size: 12px;
+        
+        transition: border-color 0.3s, color 0.3s; 
+        display: flex;
+        padding-bottom: 6px;
+        
+
+        
+        
+    
+    }
+    .hrLine{
+        padding-bottom: 10px;
+        padding-top: 0px;
+    }
+  
+
+    .footerContainer{
+        
+        width: 100%;
+    }
+    .footerContent{
+        justify-content: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .navList li:hover{
+       border-bottom-width: 5px;
+       padding-bottom: 5px;
+       border-bottom-color: brown;
+       display: block;
+       color: brown;
+       padding-bottom: 0;
+       display: inline-block;
+       
+    }
+   
+    .logo{
+        position: absolute;
+        margin-top:20px ;
+   
+        
+        
+
+    }
+    .logoText{
+        text-align: center;
+    }
+    .copyRightText{
+        
+        display: flex;
+        
+        justify-content: center;
+        padding-bottom: 10px;
+        padding-top:40px;
+        
+    }
+ 
+}

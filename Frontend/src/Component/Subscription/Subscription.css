@@ -1,0 +1,154 @@
+@media (min-width: 768px) {
+    .subscriptionContainer{
+        margin-top: 10px;
+        margin-right: 8px;
+    }
+.womenImgBlock{
+    display:block;
+}
+.headerText{
+font-size: 36px;
+font-weight: bolder;
+
+}
+.contentBlock{
+padding-top: 190px;
+}
+
+.bodyText{
+font-size: 8px;
+
+
+}
+
+.buttonContainer{
+margin-top: 20px;
+padding-bottom:30px ;
+background: rgb(230,230,230);
+background: linear-gradient(180deg, rgba(230,230,230,1) 0%, rgba(246,246,246,1) 14%, rgba(255,250,250,1) 31%, rgba(252,252,252,1) 63%);
+text-align: center;
+position: relative;
+
+}
+.button{
+color: #fff;
+background-color: black;
+border-radius:5px ;
+font-size: 12px;
+padding: 10px;
+}
+
+.mailText{
+margin-top: 40px;
+font-size: 13px;
+}
+.mensImgBlock{
+    width: 380px;
+    height: 720px;
+} 
+.womenImgBlock{
+    width: 380px;
+    height: 720px;
+} 
+} 
+
+ @media (max-width: 760px) {
+    .subscriptionContainer{
+        margin-top:20px;
+        margin-right: 8px;
+        
+    }
+    .headerText{
+        font-size: 18px;
+        font-weight: bolder;
+       
+    }
+    .contentBlock{
+        padding-top: 40px;
+    }
+    .womenImgBlock {
+        display: none;
+    }
+    .bodyText{
+        font-size: 10px;
+       
+        
+    }
+    .buttonContainer{
+        margin-top: 20px;
+       padding-bottom:30px ;
+       background: rgb(230,230,230);
+background: linear-gradient(180deg, rgba(230,230,230,1) 0%, rgba(246,246,246,1) 14%, rgba(255,250,250,1) 31%, rgba(252,252,252,1) 63%);
+       text-align: center;
+       position: relative;
+
+    }
+    .button{
+        color: #fff;
+        background-color: black;
+        border-radius:5px ;
+        font-size: 12px;
+        padding: 10px;
+    }
+    .mensImgBlock{
+        width: 200px;
+        height: 480px;
+    }
+    .mailText{
+        margin-top: 20px;
+        font-size: 13px;
+    }
+}
+
+
+@media (max-width:420px){
+    .subscriptionContainer{
+        margin-top: 200px;
+        margin-right: 8px;
+    }
+
+.headerText{
+    font-size: 18px;
+    font-weight: bolder;
+   
+   
+}
+.contentBlock{
+    padding-top: 60px;
+}
+
+.bodyText{
+    font-size: 10px;
+   
+    
+}
+.mensImgBlock{
+    width: 380px;
+    height: 620px;
+}
+.buttonContainer{
+    margin-top: 20px;
+   padding-bottom:30px ;
+   background: rgb(230,230,230);
+background: linear-gradient(180deg, rgba(230,230,230,1) 0%, rgba(246,246,246,1) 14%, rgba(255,250,250,1) 31%, rgba(252,252,252,1) 63%);
+   text-align: center;
+   position: relative;
+
+}
+.button{
+    color: #fff;
+    background-color: black;
+    border-radius:5px ;
+    font-size: 12px;
+    padding: 10px;
+}
+
+.mailText{
+    margin-top: 38px;
+    font-size: 13px;
+}
+.womenImgBlock{
+   display: none;
+} 
+}
+ 

@@ -1,0 +1,15 @@
+@media (max-width:640px) {
+    .WomenFashionCartStyle{
+        height: 700px;
+        overflow: scroll;
+        margin: 20px;       
+
+    }
+    .WomenFashionCartStyle::-webkit-scrollbar-button{
+        display: none;
+    }
+    .WomenFashionCartStyle::-webkit-scrollbar{
+        width: 0;
+    }
+   
+}

@@ -1,0 +1,96 @@
+
+
+
+
+
+@media (max-width: 680px){
+    .AdvertiestmentContainer{
+        padding: 8px;
+        text-align: justify;
+        margin-left: 25px;
+        
+    }
+    .BuyButton{
+        
+        margin: 8px 0px;
+        align-items: center;
+        justify-content: center;
+        margin-left: 50%; 
+    }
+   
+
+}
+
+@media (min-width: 680px){
+    .AdvertiestmentContainer {
+        display: flex;       
+        background: rgb(216, 215, 215);     
+        text-align: justify;
+        padding-top:0px ;
+        padding-left: 0px;
+        padding-right: 0px;  
+        
+        
+    }
+    .ImageAdd{
+        height: 100%;
+    }
+    .addContenttexts{
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+    .Details{
+        margin: 5px 60px;
+        
+    
+    }
+   
+  
+}
+
+@media (max-width: 960px){
+    .Details{
+        display: grid;
+       
+        
+         
+        
+        
+    }
+    .hq{
+        padding: 20px;
+        padding-left:  50px;
+        font-size: 17px;
+        font-family:'Poppins', sans-serif;
+        color: black;
+        font-weight: 200;
+
+        
+    }
+    .wrntyProtection{
+        padding: 20px ;
+        padding-left:  50px;
+        font-size: 17px;
+        font-family:'Poppins', sans-serif;
+        color: black;
+        font-weight: 200;
+    }
+    .freeShipping{
+        padding: 20px ;
+        padding-left:  50px;
+        font-size: 17px;
+        font-family:'Poppins', sans-serif;
+        color: black;
+        font-weight: 200;
+    }
+    .support{
+        padding: 20px ;
+        padding-left:  50px;
+        font-size: 17px;
+        font-family:'Poppins', sans-serif;
+        color: black;
+        font-weight: 200;
+
+    }
+ 
+}

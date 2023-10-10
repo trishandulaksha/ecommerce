@@ -1,0 +1,117 @@
+
+
+.mainBannner img{
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}
+
+.bannerset{
+    display: flex;
+    margin: 30px;
+   
+    justify-items: center;
+    justify-content: center;
+    
+
+  
+}
+.center{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.text1{
+    font-size: 72px;
+    line-height: 62px;
+    font-family: 'Poppins', sans-serif;
+}
+.text2{
+    font-size: 144px;
+   font-weight: 600;
+   color: white;
+   text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+   line-height: 162px;
+}
+.text3{
+    line-height: 42px;
+}
+.shopnowbtn {
+    background-color: black;
+    color: white;
+    padding: 8px 12px;
+    margin-bottom: 12px;
+    margin-top: 5px;
+    border-radius: 6px;
+
+
+}
+
+
+
+@media (max-width: 760px){
+    .bannerset{
+        margin-top: 120px;
+        
+        
+    }
+    .centerText{
+        margin: 0;
+        padding: 0;
+      
+    }
+    
+    .text1{
+        font-size: 37px;
+        font-weight: bold;
+        color: rgb(73, 73, 73);
+        line-height: 55px;
+
+    }
+    .text2{
+        font-size: 71px;
+        line-height: 65px;
+      
+    }
+    .text3{
+        font-size: 14px
+    }
+    .shopnowbtn{
+        font-size: 14px;
+        font-weight: bold;
+        background-color: black;
+        color: white;
+        padding: 5px 12px;
+        border-radius: 8px;
+        line-height: 2;
+        margin: 4px;
+    }
+    .rightside{
+        display: none;
+       
+    }
+
+}
+
+@media (min-width: 760px) and (max-width: 980px) {
+    .mainBannner {
+      margin-top: 120px;
+    }
+  }
+
+  @media (min-width: 445px) and (max-width: 760px) {
+    .text1{
+        font-size: 70px;
+        font-weight: bold;
+        color: rgb(73, 73, 73);
+        line-height: 55px;
+
+    }
+    .text2{
+        font-size: 140px;
+        line-height: 175px;
+      
+    }
+    .text3{
+        font-size: 14px
+    }
+  }  

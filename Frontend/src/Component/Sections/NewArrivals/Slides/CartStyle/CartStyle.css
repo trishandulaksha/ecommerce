@@ -1,0 +1,23 @@
+
+.addtoCart{
+    color:rgb(1, 2, 51);
+    cursor: pointer;
+
+}
+.addtoCart:hover{
+    font-weight: bolder;
+}
+.almostSoldout{
+    color: red;
+    opacity: 0.6;
+    
+}
+.removeCart{
+    color: red;
+    cursor: pointer;
+}
+
+@media (max-width:640px) {
+   
+   
+}
