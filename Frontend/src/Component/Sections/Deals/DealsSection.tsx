@@ -10,7 +10,7 @@ import { useState } from 'react';
 
 const DealsSection  = ( )=> {
 
-  const targetTime =new Date("2023-7-31 23:59:59")
+  const targetTime =new Date("2023-11-31 23:59:59")
 
   const slides = [
     { id: 1, image: slide1Img, discount: "30% OFF", description: "01 - Spring Sale" },

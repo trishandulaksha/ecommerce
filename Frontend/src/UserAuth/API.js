@@ -33,7 +33,7 @@ export const verifyPassword = async ({user_name,password})=>{
   }
 }
 
-//Update user details
+//Update user details 
 export const updateUser = async (response)=>{
     try {
         const token = await localStorage.getItem('token');

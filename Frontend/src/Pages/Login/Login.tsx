@@ -26,7 +26,6 @@ const Login = () => {
           setError("Login Success!");
           localStorage.setItem('token',response.data.token);
       
-          navigate('/updateProfile')
           
         }else{
           setError("User name and Passowrd required")
